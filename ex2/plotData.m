@@ -12,14 +12,7 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
-
-
-
-
-
-
-
-
+gscatter(X(:, 1), X(:, 2), y, 'br', '+o');
 
 % =========================================================================
 

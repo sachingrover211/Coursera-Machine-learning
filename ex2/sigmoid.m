@@ -8,11 +8,11 @@ g = zeros(size(z));
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the sigmoid of each value of z (z can be a matrix,
 %               vector or scalar).
+[l w] = size(z);
+temp = reshape(z, l*w, 1);
+temp = 1./(1 + exp(-temp));
 
-
-
-
-
+g = reshape(temp, l, w);
 % =============================================================
 
 end
