@@ -1,2 +1,4 @@
 .*.*.swp
 ex*/ex*.m
+ex*/submit*.m
+ex*/ml_login*.mat
