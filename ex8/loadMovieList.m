@@ -6,7 +6,7 @@ function movieList = loadMovieList()
 
 
 %% Read the fixed movieulary list
-fid = fopen('movie_ids.txt');
+fid = fopen('../../Problems/mlclass-ex8-008/mlclass-ex8/movie_ids.txt');
 
 % Store all movies in cell array movie{}
 n = 1682;  % Total number of movies 
